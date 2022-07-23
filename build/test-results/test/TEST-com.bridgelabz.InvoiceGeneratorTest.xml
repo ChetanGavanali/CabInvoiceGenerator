@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.InvoiceGeneratorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-07-23T13:05:57" hostname="DESKTOP-8DEVOGL" time="0.029">
+<testsuite name="com.bridgelabz.InvoiceGeneratorTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-07-23T13:11:25" hostname="DESKTOP-8DEVOGL" time="0.035">
   <properties/>
-  <testcase name="givenLessDistanceAndTime_ShouldReturnMinFare()" classname="com.bridgelabz.InvoiceGeneratorTest" time="0.021"/>
-  <testcase name="givenMultipleRides_ShouldReturnTotalFare()" classname="com.bridgelabz.InvoiceGeneratorTest" time="0.002"/>
-  <testcase name="givenUserId_ShouldReturnInvoiceSummary()" classname="com.bridgelabz.InvoiceGeneratorTest" time="0.002"/>
-  <testcase name="givenDistanceAndTime_ShouldReturnTotalFare()" classname="com.bridgelabz.InvoiceGeneratorTest" time="0.001"/>
-  <testcase name="givenMultipleRides_ShouldReturnInvoiceSummary()" classname="com.bridgelabz.InvoiceGeneratorTest" time="0.0"/>
+  <testcase name="givenMultipleRides_WhenPremium_ShouldReturnInvoiceSummary()" classname="com.bridgelabz.InvoiceGeneratorTest" time="0.02"/>
+  <testcase name="givenLessDistanceAndTime_WhenNormal_ShouldReturnMinFare()" classname="com.bridgelabz.InvoiceGeneratorTest" time="0.001"/>
+  <testcase name="givenUserId_WhenPremium_ShouldReturnInvoiceSummary()" classname="com.bridgelabz.InvoiceGeneratorTest" time="0.002"/>
+  <testcase name="givenDistanceAndTime_WhenNormal_ShouldReturnTotalFare()" classname="com.bridgelabz.InvoiceGeneratorTest" time="0.001"/>
+  <testcase name="givenMultipleRides_WhenPremium_ShouldReturnTotalFare()" classname="com.bridgelabz.InvoiceGeneratorTest" time="0.001"/>
+  <testcase name="givenLessDistanceAndTime_WhenPremium_ShouldReturnMinFare()" classname="com.bridgelabz.InvoiceGeneratorTest" time="0.001"/>
+  <testcase name="givenMultipleRides_WhenNormal_ShouldReturnTotalFare()" classname="com.bridgelabz.InvoiceGeneratorTest" time="0.001"/>
+  <testcase name="givenUserId_WhenNormal_ShouldReturnInvoiceSummary()" classname="com.bridgelabz.InvoiceGeneratorTest" time="0.001"/>
+  <testcase name="givenDistanceAndTime_WhenPremium_ShouldReturnTotalFare()" classname="com.bridgelabz.InvoiceGeneratorTest" time="0.001"/>
+  <testcase name="givenMultipleRides_WhenNormal_ShouldReturnInvoiceSummary()" classname="com.bridgelabz.InvoiceGeneratorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
